@@ -1,0 +1,8 @@
+.hr-platform-footer{background:#0b2b3c;color:#8ea7b8;margin-top:48px;padding:58px max(24px,4vw) 18px}
+.hr-platform-footer-inner{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1.6fr repeat(4,1fr);gap:42px}
+.hr-footer-brand p{font-size:11px;line-height:1.7;max-width:240px;margin:18px 0 0;color:#7895a8}
+.hr-footer-logo{display:flex;align-items:center;gap:10px;color:white;text-decoration:none}.hr-footer-logo strong{display:block;font-size:18px;line-height:1}.hr-footer-logo small{display:block;margin-top:5px;font-size:7px;letter-spacing:.24em;color:#7794a6}
+.hr-footer-mark{width:36px;height:36px;border-radius:9px;display:grid;place-items:center;background:#2875ed;color:white;font-weight:800;font-size:18px;box-shadow:0 8px 22px rgba(40,117,237,.25)}
+.hr-footer-column{display:flex;flex-direction:column;gap:12px}.hr-footer-column h4{margin:2px 0 9px;color:white;font-size:10px;letter-spacing:.04em}.hr-footer-column a{color:#8ea7b8;text-decoration:none;font-size:11px}.hr-footer-column a:hover{color:white}
+.hr-footer-bottom{max-width:1180px;margin:38px auto 0;padding-top:18px;border-top:1px solid rgba(255,255,255,.1);display:flex;justify-content:space-between;gap:20px;font-size:9px}.hr-footer-bottom div{display:flex;gap:20px}.hr-footer-bottom a{color:#718ea1;text-decoration:none}.hr-footer-bottom a:hover{color:white}
+@media(max-width:900px){.hr-platform-footer-inner{grid-template-columns:repeat(2,1fr)}.hr-footer-brand{grid-column:1/-1}}@media(max-width:560px){.hr-platform-footer-inner{grid-template-columns:1fr 1fr;gap:28px}.hr-footer-bottom{flex-direction:column}.hr-footer-bottom div{gap:14px}}
